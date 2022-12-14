@@ -11,7 +11,4 @@ for x in range(2):
             right_side= not (x or y or z)
             left_side= not x and not y and not z
             identity= right_side==left_side
-if identity:
-    print ("Выражение истинно для всех значений предикат")
-else:
-    print ("Выражение не является истинным для всех значений предикат")
+            print (f"x={x}, y={y}, z={z}-> {identity}")
